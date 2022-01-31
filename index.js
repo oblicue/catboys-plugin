@@ -53,7 +53,7 @@ module.exports = class Catboys extends Plugin {
       newStwing = newStwing.replaceAll("r", "w");
       
       logsmth("owoified message")
-      return newString;
+      return newStwing;
     }
 
     powercord.api.settings.registerSettings(this.entityID, { // settings UvU
