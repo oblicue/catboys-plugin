@@ -9,6 +9,6 @@ owoify<br>
 add kaomoji/emoticons to the end of messages<br>
 let everybody know you like catboys (append "i like catboys btw" to the end of every message<br>
 
-**DISCLAIMER** uses the [catboy api](https://catboys.com/api) for these 2 commands, everything else is done internally<br>
+**DISCLAIMER** uses the [catboy api](https://catboys.com/api) for the below commands, everything else is done internally<br>
 generate catboy images<br>
 generate catboy sayings (rawr etc.)<br>
