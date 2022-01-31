@@ -1,0 +1,9 @@
+{
+  "name": "catboys owo",
+  "version": "1.0.0",
+  "description": "adds catboy related commands",
+  "author": "-joey-#8374",
+  "license": "MIT",
+  "nsfw": false,
+  "permissions": "ext_api"
+}
