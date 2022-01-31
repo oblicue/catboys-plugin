@@ -25,7 +25,7 @@ module.exports = class Catboys extends Plugin {
   async startPlugin() {
     const appendList = Array("OvO", "^-^", "OwO", "UwU", "x3", ":3", ">:3", "ʕ •ᴥ•ʔ", "^ω^", "(＾ｕ＾)", "(￣ω￣)", "(*￣▽￣)", "(＾◡＾)", "(☆ω☆)")
     
-    function chooseKaomoji() { // stolen from Ross-Powercord 0^0
+    function chooseKaomoji() { // math is stolen from Ross-Powercord 0^0
       var uwu = appendList[Math.floor(Math.random()*appendList.length)];
       return uwu
     }
@@ -35,22 +35,22 @@ module.exports = class Catboys extends Plugin {
     }
 
     function replacer(string) {
-      let newString = string.toLowerCase();
-      newString = newString.replaceAll("the", "teh");
-      newString = newString.replaceAll("hey", "hai");
-      newString = newString.replaceAll("that", "dat");
-      newString = newString.replaceAll("this", "dis");
-      newString = newString.replaceAll("haha", "hehe");
-      newString = newString.replaceAll("lol", "x3"); // could be doing this a better way but anyway x3
-      newString = newString.replaceAll("lmao", "x3");
-      newString = newString.replaceAll("mr", "mistuh");
-      newString = newString.replaceAll("dick", "peepee");
-      newString = newString.replaceAll("stop", "stawp");
-      newString = newString.replaceAll("fuck", "fwick");
-      newString = newString.replaceAll("shit", "crap");
-      newString = newString.replaceAll("le", "wal");
-      newString = newString.replaceAll("l", "w");
-      newString = newString.replaceAll("r", "w");
+      let newStwing = string.toLowerCase();
+      newStwing = newStwing.replaceAll("the", "teh");
+      newStwing = newStwing.replaceAll("hey", "hai");
+      newStwing = newStwing.replaceAll("that", "dat");
+      newStwing = newStwing.replaceAll("this", "dis");
+      newStwing = newStwing.replaceAll("haha", "hehe");
+      newStwing = newStwing.replaceAll("lol", "x3"); // could be doing this a better way but anyway x3
+      newStwing = newStwing.replaceAll("lmao", "x3");
+      newStwing = newStwing.replaceAll("mr", "mistuh");
+      newStwing = newStwing.replaceAll("dick", "peepee");
+      newStwing = newStwing.replaceAll("stop", "stawp");
+      newStwing = newStwing.replaceAll("fuck", "fwick");
+      newStwing = newStwing.replaceAll("shit", "crap");
+      newStwing = newStwing.replaceAll("le", "wal");
+      newStwing = newStwing.replaceAll("l", "w");
+      newStwing = newStwing.replaceAll("r", "w");
       
       logsmth("owoified message")
       return newString;
@@ -62,7 +62,7 @@ module.exports = class Catboys extends Plugin {
       render: Settings
     })
 
-    powercord.api.commands.registerCommand({ // catboy command >-<
+    powercord.api.commands.registerCommand({ // catboy command >-< (thank you sm for the help Kellen#6670, legume#0173 and Samm-Cheese#9500)
       command: 'catboy',
       description: 'catboys uwu',
       usage: '.catboy',
